@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-// import { selectTrending } from "../features/movie/movieSlice";
+import { selectTrending } from "../features/movie/movieSlice";
 
 const Trending = (props) => {
-//   const movies = useSelector(selectTrending);
+  const movies = useSelector(selectTrending);
 
   return (
     <Container>
       <h4>Trending</h4>
-      {/* <Content>
+      <Content>
         {movies &&
           movies.map((movie, key) => (
             <Wrap key={key}>
@@ -19,14 +19,7 @@ const Trending = (props) => {
               </Link>
             </Wrap>
           ))}
-      </Content> */}
-      <Content>
-                <Wrap>
-                    <Link to="/">
-                        <img src="/images/viewers-national.png" alt="bg" />
-                    </Link>
-                </Wrap>
-            </Content>
+      </Content>
     </Container>
   );
 };

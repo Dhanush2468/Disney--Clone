@@ -92,7 +92,7 @@ const Wrap = styled.div`
     cursor: pointer;
     display: block;
     position: relative;
-    padding: 1px;
+    padding: 4px;
 
     img {
       width: 100%;
@@ -101,7 +101,7 @@ const Wrap = styled.div`
 
     &:hover {
       padding: 0;
-      border: 3px solid rgba(249, 249, 249, 0.8);
+      border: 4px solid rgba(249, 249, 249, 0.8);
       transition-duration: 300ms;
     }
   }

@@ -1,26 +1,24 @@
 import styled, { keyframes } from "styled-components";
 
 const Login = (props) => {
-    return(
-        <Container>
-            <Content>
-                <CTA>
-                    <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
-                    <SignUp>
-                        GET ALL MOVIES
-                    </SignUp>
-                    <Description>
-                    Get Premier Access to Raya and the Last Dragon for an additional fee
+  return (
+    <Container>
+      <Content>
+        <CTA>
+          <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
+          <SignUp>GET ALL MOVIES</SignUp>
+          <Description>
+            Get Premier Access to Raya and the Last Dragon for an additional fee
             with a Disney+ subscription. As of 29-02-2024, the price of Disney+
             and The Disney Bundle will increase by $1.
-                    </Description>
-                    <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
-                </CTA>
-                <BgImage />
-            </Content>
-        </Container>
-    )
-}
+          </Description>
+          <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
+        </CTA>
+        <BgImage />
+      </Content>
+    </Container>
+  );
+};
 
 const Container = styled.section`
   overflow: hidden;

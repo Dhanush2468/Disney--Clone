@@ -118,6 +118,7 @@ const Nav = styled.nav`
   letter-spacing: 16px;
   z-index: 3;
 `;
+
 const Logo = styled.a`
   padding: 0;
   width: 80px;
@@ -131,6 +132,7 @@ const Logo = styled.a`
     width: 100%;
   }
 `;
+
 const NavMenu = styled.div`
   align-items: center;
   display: flex;
@@ -195,6 +197,7 @@ const NavMenu = styled.div`
     display: none;
   } */
 `;
+
 const Login = styled.a`
   background-color: rgba(0, 0, 0, 0.6);
   padding: 8px 16px;
@@ -210,6 +213,7 @@ const Login = styled.a`
     border-color: transparent;
   }
 `;
+
 const UserImg = styled.img`
   height: 100%;
 `;
